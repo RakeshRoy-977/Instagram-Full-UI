@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 const Auth = () => {
   const NAV = useNavigate();
   function handelLogin() {
-    NAV("/Feed");
+    NAV("/");
   }
   return (
     <>

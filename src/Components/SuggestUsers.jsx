@@ -5,7 +5,7 @@ import { suggestedusersData } from "./data";
 const SuggestUsers = () => {
   const NAV = useNavigate();
   const handelLogout = () => {
-    NAV("/");
+    NAV("/auth");
   };
   return (
     <>
