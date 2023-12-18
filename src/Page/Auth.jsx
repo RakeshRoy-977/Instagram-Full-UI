@@ -21,12 +21,12 @@ const Auth = () => {
               alt="instagram logo"
             />
             <input
-              className="w-[75%] rounded-md  h-8 p-2"
+              className="w-[75%] rounded-md  h-8 p-2 bg-transparent"
               type="text"
               placeholder="Email or Phone number"
             />
             <input
-              className="w-[75%] rounded-md h-8 p-2"
+              className="w-[75%] rounded-md h-8 p-2 bg-transparent"
               type="password"
               placeholder="Password"
             />

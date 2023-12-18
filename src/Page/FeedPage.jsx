@@ -14,7 +14,7 @@ const FeedPage = () => {
   return (
     <>
       <div className="bg-black text-white ">
-        <div className="flex gap-20 border-2 border-yellow-500 justify-evenly ">
+        <div className="flex gap-20  justify-between ">
           <Sidebar />
           <div className="feedPage ">
             {feedPostData.map((x) => (
