@@ -1,7 +1,12 @@
 import React from "react";
 import { SidebarData } from "./data";
+import { useNavigate } from "react-router-dom";
 
 const Sidebar = () => {
+  const NAV = useNavigate();
+  function handelViewProfile() {
+    NAV("/profile");
+  }
   return (
     <>
       <div className="text-white border-r-2 border-r-gray-400 h-[100vh] w-[18vw] pt-10 top-0 sticky ">
@@ -15,7 +20,10 @@ const Sidebar = () => {
               <p>{d.name}</p>
             </div>
           ))}
-          <div className="flex items-center gap-5 pl-12  hover:bg-zinc-800 transition-all">
+          <div
+            onClick={handelViewProfile}
+            className="flex items-center gap-5 pl-12  hover:bg-zinc-800 transition-all"
+          >
             <img className="rounded-full w-9 h-9" src="Flex.jpeg" />
             <p>Profile</p>
           </div>

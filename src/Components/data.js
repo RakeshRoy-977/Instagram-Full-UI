@@ -1,27 +1,63 @@
-export const userdata = [
+export const tabsIcons = [
   {
-    userName: "Rakesh.Roy.977",
-    profilePic: "RakeshRoy.png",
-    followers: 998,
-    following: 69,
+    name: "POST",
+    icon: "ri-grid-fill",
   },
   {
-    userName: "Rakesh.Roy.977",
-    profilePic: "RakeshRoy.png",
-    followers: 998,
-    following: 69,
+    name: "REELS",
+    icon: "ri-video-line",
   },
   {
-    userName: "Rakesh.Roy.977",
-    profilePic: "RakeshRoy.png",
-    followers: 998,
-    following: 69,
+    name: "SAVED",
+    icon: "ri-bookmark-line",
   },
   {
-    userName: "Rakesh.Roy.977",
-    profilePic: "RakeshRoy.png",
-    followers: 998,
-    following: 69,
+    name: "TAGGED",
+    icon: "ri-price-tag-3-line",
+  },
+];
+
+export const ProfilePics = [
+  {
+    id: 1,
+    picUrl:
+      "https://cdn.pixabay.com/photo/2014/08/23/11/33/cow-425164_1280.jpg",
+  },
+  {
+    id: 2,
+    picUrl:
+      "https://cdn.pixabay.com/photo/2023/12/09/15/04/dog-8439530_1280.jpg",
+  },
+  {
+    id: 3,
+    picUrl:
+      "https://cdn.pixabay.com/photo/2023/07/29/17/36/fly-8157417_1280.jpg",
+  },
+  {
+    id: 4,
+    picUrl:
+      "https://cdn.pixabay.com/photo/2019/10/29/10/07/man-4586576_1280.jpg",
+  },
+  {
+    id: 5,
+    picUrl:
+      "https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_1280.jpg",
+  },
+  {
+    id: 6,
+    picUrl: "mine1.jpg",
+  },
+  {
+    id: 7,
+    picUrl: "redbull.jpg",
+  },
+  {
+    id: 8,
+    picUrl: "mining.jpg",
+  },
+  {
+    id: 9,
+    picUrl: "tv.jpg",
   },
 ];
 
